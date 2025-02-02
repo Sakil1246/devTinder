@@ -9,6 +9,9 @@ const UserSchema=mongoose.Schema({
     email:{
         type:String
     },
+    password:{
+        type:String
+    },
     age:{
         type:Number
     },
